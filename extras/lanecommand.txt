@@ -1,0 +1,2 @@
+cmake .. -DCMAKE_PREFIX_PATH=D:\pytorch\library\debug\libtorch
+"C:\Program Files\CMake\bin\cmake.exe" --build D:\vision\Lane\build --config Debug

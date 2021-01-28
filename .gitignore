@@ -1,0 +1,7 @@
+*.dll
+*.sln
+*.vcxproj.user
+*.vcxproj
+x64
+*.vs
+build
