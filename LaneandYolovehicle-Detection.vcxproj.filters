@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{e69fc931-3112-4272-aabc-e24bc28e0f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{37e0c16d-4bc3-447a-93d7-50f534d53cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CudaSource">
+      <UniqueIdentifier>{2aec90ef-9e6d-4536-90f7-4517cf62a90a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="all_header.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="tensorflow_dec.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="binary.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="calibration.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="erosion_dilation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="first_frameprocessing.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="gray.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="hsv.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="imagewrap.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LaneProcessing.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="nxt_frameprocessing.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="polyfit.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="processinga.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="processingb.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="resize.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="sanity_check.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="sobel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="video_processing.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="yolo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="nonzero.cu">
+      <Filter>CudaSource</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
